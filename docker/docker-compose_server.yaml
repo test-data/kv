@@ -1,0 +1,39 @@
+services:
+  server1:
+    image: kv
+    ports:
+      - 3999:3999
+    environment:
+      - SCRIPT=/opt/kv/start_server.sh
+      - PARAMETRS=3999
+    networks:
+      - kv
+  server2:
+    image: kv
+    ports:
+       - 3998:3998
+    environment:
+        - SCRIPT=/opt/kv/start_server.sh
+        - PARAMETRS=3998
+    networks:
+        - kv
+  server3:
+    image: kv
+    ports:
+        - 3997:3997
+    environment:
+        - SCRIPT=/opt/kv/start_server.sh
+        - PARAMETRS=3997
+    networks:
+        - kv
+#  client:
+#    image: kv
+#    networks:
+#      - kv
+#    environment:
+#      - SCRIPT=/opt/kv/start_client_stress.sh
+#      - PARAMETRS=localhsot:3999,localhost:3998,cloaclhost:3997
+networks:
+  kv:
+#    name: host
+#    external: true

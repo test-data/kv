@@ -1,0 +1,12 @@
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/server/RPCServer.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/server/KeyValueMap.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/KVClientRequest.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/server/KVDaemon.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/RPCClient.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/RPCClientConnectionProxy.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/protobuf/ru/kv/protobuf/KVRPC.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/util/Endpoint.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/hash/JumpConsistentHash.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/ClientStressTest.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/ClientCli.java
+/Users/17348731/git/netty/kvdistr/src/main/java/ru/kv/client/RPCResponseListener.java
